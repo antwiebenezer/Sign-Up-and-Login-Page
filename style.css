@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(201, 178, 222);
+    font-family: sans-serif;
+}
+#container {
+    width: 30%;
+    background-color: white;
+    margin: 2% auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px gray;
+}
+#container #header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form .field {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: rgb(221, 214, 214);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 14px;
+}
+#container p {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 5px;
+    font-size: 13px;
+    padding: 5px;
+}
+form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(41, 41, 92);
+    color: white;
+    font-size: 15px;
+}
+form .chk {
+    margin: 10px 0 10px 40px;
+}
+form #already {
+    margin: 10px 40px;
+}
+form a {
+    text-decoration: none;
+    color: rgb(57, 57, 201);
+}
+form input[type="submit"]:hover {
+    background-color: rgb(221, 214, 214);
+    color: black;
+}
